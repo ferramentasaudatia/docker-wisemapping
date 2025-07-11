@@ -2,10 +2,6 @@ FROM openjdk:8-jdk
 
 MAINTAINER info@abroweb.ru
 
-RUN locale-gen en_US.UTF-8
-ENV LANG       en_US.UTF-8
-ENV LC_ALL     en_US.UTF-8
-
 RUN apt-get install -y unzip
 
 ## for dev only
