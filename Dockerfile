@@ -1,4 +1,4 @@
-FROM dockerfile/java
+FROM openjdk:8-jdk
 
 MAINTAINER info@abroweb.ru
 
