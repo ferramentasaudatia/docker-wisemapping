@@ -29,5 +29,6 @@ RUN touch /firstrun
 
 #ENTRYPOINT ["/scripts/start.sh"]
 
-CMD /bin/bash
+CMD ["java", "-jar", "/root/wisemapping-v3.0.2/webapps/WEB-INF/lib/wise-api-3.0.2.jar"]
+
 
